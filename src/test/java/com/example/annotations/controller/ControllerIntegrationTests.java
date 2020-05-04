@@ -98,7 +98,7 @@ public class ControllerIntegrationTests {
     }
 
     @Test
-    void comicBookTest() throws Exception {
+    void comicBookTest() {
 
         Map<String, Object> classes = context.getBeansWithAnnotation(ComicBook.class);
 
@@ -119,7 +119,7 @@ public class ControllerIntegrationTests {
     }
 
     @Test
-    void simpsonTest() throws Exception {
+    void simpsonTest() {
 
         Map<String, Object> classes = context.getBeansWithAnnotation(Simpsons.class);
 
